@@ -1,6 +1,6 @@
 - [MyJavaStudyDiary](MyJavaStudyDiary/)
   - [a_Java学习资源书籍推荐](MyJavaStudyDiary/a_Java学习资源书籍推荐.md)
-  - [java idea使用](MyJavaStudyDiary/java idea使用.md)
+  - [java_idea使用](MyJavaStudyDiary/java_idea使用.md)
   - [java开发规范与规则（韩顺平版）](MyJavaStudyDiary/java开发规范与规则（韩顺平版）.md)
   - [java数据类型](MyJavaStudyDiary/java数据类型.md)
   - [OOP多态](MyJavaStudyDiary/OOP多态.md)

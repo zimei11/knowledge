@@ -1,4 +1,4 @@
-# java idea使用
+# java_idea使用
 
 输入main自动tap补全
 
