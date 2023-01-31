@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+  <link rel="icon" href="https://img.zimei.fun/favicon.ico">
 
   <!-- 文件夹样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
@@ -33,8 +34,10 @@
       repo: 'https://github.com/zimei11/knowledge',
       // 侧边栏文档目录
       loadSidebar: true,
-
+      loadNavbar: true,
       subMaxLevel: 2,
+      // 小屏幕收缩
+      mergeNavbar: true,
       alias: {
         "/.*/_sidebar.md": "/_sidebar.md",
       },
@@ -71,7 +74,7 @@
         countable: true,
         position: "top",
         margin: "10px",
-        float: "right",
+        float: "",
         fontsize: "0.9em",
         color: "rgb(90,90,90)",
         language: "chinese",
@@ -106,9 +109,8 @@
   <!-- 底部 上一页下一页 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
 
+  <!-- 外链脚本 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
 
   <!-- 全文搜索 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
@@ -126,7 +128,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
 
   <!-- emoji -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
 </body>
 
 </html>
