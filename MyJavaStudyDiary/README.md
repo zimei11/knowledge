@@ -1,4 +1,4 @@
-- [返回首页](/)
+- [返回首页](/README)
 - [MyJavaStudyDiary](MyJavaStudyDiary/)
   - [a_Java学习资源书籍推荐](MyJavaStudyDiary/a_Java学习资源书籍推荐.md)
   - [java_idea使用](MyJavaStudyDiary/java_idea使用.md)
