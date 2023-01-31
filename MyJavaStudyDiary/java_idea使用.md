@@ -8,6 +8,12 @@ public static void main(String[] args)
 }
 ```
 
+快捷键
+
 ![image-20220329092854405](http://img.zimei.fun/202203290928501.png)
 
-![image-20220329092904358](http://img.zimei.fun/202203290929412.png)
+模板
+
+![image-20220329092854405](http://img.zimei.fun/202203290929412.png)
+
+

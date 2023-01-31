@@ -43,9 +43,9 @@
       },
       // 跳转后自动到顶部
       auto2top: true,
-
       coverpage: true,
       themeColor: '#468cd4',
+
       // PLUGINS
       // ----------------------------------------------------------------
       // 页面右侧toc
@@ -84,6 +84,26 @@
         },
         isExpected: true,
       },
+      loadFooter: true,
+      loadFooter: '_footer.md',
+
+      // 开发插件
+      // 编辑这个页面
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            var url =
+              'https://github.com/zimei11/knowledge/tree/main/' +
+              vm.route.file;
+            var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
+
+            return (
+              editHtml +
+              html
+            );
+          });
+        }
+      ]
     };
   </script>
   <!-- docsify -->
@@ -95,6 +115,8 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cmake.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
@@ -129,6 +151,9 @@
 
   <!-- emoji -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
+
+  <!-- 页脚插件 -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 </body>
 
 </html>
