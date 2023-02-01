@@ -1,6 +1,8 @@
 
 
-欢迎访问子美知识库，你可以点击左侧侧边栏，顶部导航栏尽情探索。
+> 欢迎访问子美知识库  ╰(￣ω￣ｏ)
+
+
 - [MyJavaStudyDiary](MyJavaStudyDiary/)
   - [a_Java学习资源书籍推荐](MyJavaStudyDiary/a_Java学习资源书籍推荐.md)
   - [java_idea使用](MyJavaStudyDiary/java_idea使用.md)
