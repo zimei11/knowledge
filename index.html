@@ -86,8 +86,9 @@
         },
         isExpected: true,
       },
-      loadFooter: true,
-      loadFooter: '_footer.md',
+      // 页脚插件
+      // loadFooter: true,
+      // loadFooter: '_footer.md',
 
       // 开发插件
       // 编辑这个页面
@@ -104,6 +105,18 @@
               html
             );
           });
+
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/zimei11">zimei</a> &copy;2023.</span>',
+            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
         }
       ]
     };
@@ -115,13 +128,11 @@
 
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cmake.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script> -->
 
 
   <!-- 多tab支持 -->
@@ -152,7 +163,7 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
 
   <!-- 页脚插件 -->
-  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script> -->
 
   <!-- 返回顶部jsDelivr -->
   <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
