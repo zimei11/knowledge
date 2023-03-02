@@ -11,7 +11,7 @@
   - [OOP多态](MyJavaStudyDiary/OOP多态.md)
   - [位运算符相关](MyJavaStudyDiary/位运算符相关.md)
 - [子美BotsWiki](子美BotsWiki/)
-  - [snake_bots_zimei_wike](子美BotsWiki/snake_bots_zimei_wike.md)
+  - [snake_bots_zimei_wiki](子美BotsWiki/snake_bots_zimei_wiki.md)
   - [snake_bot样例源码(最短路）](子美BotsWiki/snake_bot样例源码(最短路）.md)
 - [环境配置](环境配置/)
   - [服务器宝塔面板配置远程连接数据库](环境配置/服务器宝塔面板配置远程连接数据库.md)
