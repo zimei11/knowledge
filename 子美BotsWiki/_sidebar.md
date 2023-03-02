@@ -1,4 +1,4 @@
 - [返回首页](/README)
 - [子美BotsWiki](子美BotsWiki/)
   - [snake_bots_zimei_wiki](子美BotsWiki/snake_bots_zimei_wiki.md)
-  - [snake_bot样例源码(最短路）](子美BotsWiki/snake_bot样例源码(最短路）.md)
+  - [snake_bot样例源码（最短路）](子美BotsWiki/snake_bot样例源码（最短路）.md)
